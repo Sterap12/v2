@@ -1,0 +1,249 @@
+html, body {
+   
+    margin: 0;
+    padding: 0;
+    
+    font-size: 16px;
+    /*font-family: "Parrafos" !important;*/
+    font-family: PetitaBold;
+    /*background:url(../assets/img/fondonova2.jpg);*/
+    
+    
+    color:white;
+    background-image: url("../assets/img/fondonew.jpg");  
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   /* background-color: #2b3d51;*/
+}
+header{
+ 
+width: 100%;
+height: 100px;
+margin: 0 auto;
+overflow: hidden;    
+    
+}
+#boton1{
+background-color: #64921B;
+font-family: PetitaBold;
+font-size: 15px;
+color: white;
+border: none;
+width: 140px;
+height: 40px;
+margin-left: 950px;
+margin-top: -40px;
+display: block;
+}
+#boton2{
+background-color: #FE430E;
+font-family: PetitaBold;
+font-size: 15px;
+color: white;
+border: none;
+width: 120px;
+height: 40px;
+margin-left: 1120px;
+margin-top: -40px;
+display: block;
+}
+header figure img{
+    
+width: 430px;
+height: 70px;
+margin-left: 40px;
+
+}
+.form-container{
+    padding: 20px;
+    border-radius: 5px;
+    /*background-color: rgba(230,231,227,.1);*/
+    background-color: rgba(208,212,201,.3);
+    font-family: PetitaBold;
+    width: 350px;
+    height: 450px;
+    color: white;
+    position: absolute;
+    margin-top: 320px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+}
+
+.group-material-login{ 
+    position:relative; 
+    margin-bottom:25px; 
+}
+.material-login-control,
+.material-control-login{
+  background-color: transparent;
+  font-family: PetitaBold;
+  font-size:17px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #fff;
+  outline:none;
+}
+.material-login-control:focus{ outline:none; }
+.group-material-login label{
+  color:#fff; 
+  font-size:17px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:all 0.2s ease; 
+  -moz-transition:all 0.2s ease; 
+  -webkit-transition:all 0.2s ease;
+}
+/* Estado activo */
+input.material-login-control:focus:valid ~ label,
+input.material-login-control:valid ~ label{
+  top:-18px;
+  font-size:13px;
+  color:#fff;
+}
+input.material-login-control:focus:invalid:required,
+input.material-login-control:invalid:required{
+  outline: none;
+  box-shadow: none;
+}
+/*Barra de formularios material desing ================*/
+.bar-login{ position:relative; display:block; width:100%; }
+.bar-login:before, .bar-login:after     {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#fff; 
+  transition:all 0.2s ease; 
+  -moz-transition:all 0.2s ease; 
+  -webkit-transition:all 0.2s ease;
+}
+.bar-login:before { left:50%; }
+.bar-login:after { right:50%; }
+input.material-login-control:focus ~ .bar-login:before, input.material-login-control:focus ~ .bar-login:after {
+  width:50%;
+}
+.btn-login{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    font-size: 19px;
+    line-height: 19px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+.btn-login:hover{
+    border: none;
+    box-shadow: none;
+}
+.btn-login:focus,
+.btn-login:active{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.radio-inline label:hover{
+    cursor: pointer;
+}
+select.material-control-login{
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #444F55 url(../assets/icons/SelectMaterialIndicator-white.png) no-repeat scroll right 0.75rem center / 13px 8px;
+}
+select.material-control-login:hover{
+    cursor: pointer;
+}
+
+
+#bEnviar{
+
+width: 120px;
+height: 30px;
+background-color: #eb5e1e;
+font-family: "PetitaBold";
+color: white;
+border-radius: 10px;
+font-size: 17px;
+margin-top: 20px;    
+    
+}
+
+/* FOOOOOTEEERRR*/
+#footer{
+    
+width: 100%;
+height: 100px;    
+background: #2b3d51;
+position: absolute;
+margin-top: 650px;
+border-top: 2px solid;
+border-color: white; 	
+
+}
+
+
+#acerca{
+   
+font-size: 16px;    
+position: absolute;
+font-family: "PetitaBold";
+color: white;
+margin-left: 7px; 
+}
+#par{
+ margin-top: 55px;   
+ position: relative;
+ margin-left: 7px; 
+}  
+
+#desa{
+ 
+margin-left: 800px; 
+position: absolute;
+margin-top: -95px;
+}
+
+#lista{
+margin-left: 760px;  
+position: absolute;
+margin-top: -55px;
+}
+
+
+
+#soporte{
+    
+margin-left: 540px;
+position: absolute;
+margin-top: -95px;
+
+}
+#sopi{
+    
+margin-left:510px;
+margin-top: -40px;
+position: absolute;
+}
+form figure img{
+margin-left: 50px; 
+}

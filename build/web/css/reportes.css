@@ -1,0 +1,79 @@
+#ins{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/a.jpg"); 
+border: none;
+
+}
+
+#sal{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/b.jpg"); 
+border: none;
+
+}
+#des{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/c.jpg"); 
+border: none;
+}
+#inv{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/d.jpg"); 
+border: none;
+}
+#apr{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/e.jpg"); 
+border: none;
+}
+#nov{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/f.jpg"); 
+border: none;
+}
+#est{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/g.jpg"); 
+border: none;
+}
+#pro{
+height: 250px;
+width: 250px;
+background-image: url("../assets/img/h.jpg"); 
+border: none;
+}
+
+#1{
+    
+}
+#z{
+margin-top: -255px;
+margin-left: 255px;
+}
+#za{
+margin-top: -255px;
+margin-left: 510px;
+}
+#zb{
+margin-top: -255px;
+margin-left: 765px;
+}
+#zd{
+margin-top: -255px;
+margin-left: 255px;
+}
+#ze{
+margin-top: -255px;
+margin-left: 510px;
+}
+#zf{
+margin-top: -255px;
+margin-left: 765px;
+}
